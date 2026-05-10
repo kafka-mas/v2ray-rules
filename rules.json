@@ -1,0 +1,70 @@
+[
+  {
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "outboundTag": "block",
+    "remarks": "Ad-Block"
+  },
+  {
+    "domain": [
+      "api.oneme.ru"
+    ],
+    "outboundTag": "block",
+    "remarks": "skaM"
+  },
+  {
+    "domain": [
+      "yandex.net",
+      "yandex.com"
+    ],
+    "ip": [
+      "geoip:yandex"
+    ],
+    "outboundTag": "direct",
+    "remarks": "Yandex"
+  },
+  {
+    "domain": [
+      "vk.com"
+    ],
+    "outboundTag": "direct",
+    "remarks": "VK"
+  },
+  {
+    "ip": [
+      "geoip:ru"
+    ],
+    "outboundTag": "direct",
+    "remarks": "Ru IP"
+  },
+  {
+    "domain": [
+      "domain:.ru"
+    ],
+    "outboundTag": "direct",
+    "remarks": "Ru domains"
+  },
+  {
+    "domain": [
+      "geosite:private"
+    ],
+    "outboundTag": "direct",
+    "remarks": "private"
+  },
+  {
+    "ip": [
+      "geoip:private"
+    ],
+    "outboundTag": "direct",
+    "remarks": "private"
+  },
+  {
+    "domain": [
+      "geosite:google",
+      "geosite:youtube"
+    ],
+    "outboundTag": "proxy",
+    "remarks": "Google"
+  }
+]
