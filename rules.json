@@ -16,6 +16,7 @@
   {
     "domain": [
       "yandex.net",
+	  "yastatic.net",
       "yandex.com"
     ],
     "ip": [
